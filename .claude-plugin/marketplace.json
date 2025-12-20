@@ -1,0 +1,20 @@
+{
+  "name": "MacCleaner",
+  "owner": {
+    "name": "Szymon Paluch"
+  },
+  "plugins": [
+    {
+      "name": "mac-cleaner",
+      "source": ".",
+      "description": "Comprehensive Mac maintenance toolkit - disk cleanup, memory optimization, and security scanning",
+      "version": "0.1.0",
+      "author": {
+        "name": "Szymon Paluch"
+      },
+      "repository": "https://github.com/hculap/MacCleaner",
+      "license": "MIT",
+      "keywords": ["macos", "cleanup", "disk", "memory", "security", "maintenance"]
+    }
+  ]
+}
