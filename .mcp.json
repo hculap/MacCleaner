@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "virustotal": {
+      "command": "npx",
+      "args": ["-y", "mcp-virustotal"],
+      "env": {
+        "VIRUSTOTAL_API_KEY": "${VIRUSTOTAL_API_KEY}"
+      }
+    }
+  }
+}

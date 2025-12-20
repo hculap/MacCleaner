@@ -1,0 +1,27 @@
+{
+  "name": "mac-cleaner",
+  "version": "0.1.0",
+  "description": "Comprehensive Mac maintenance toolkit for disk cleanup, memory optimization, and security scanning",
+  "author": {
+    "name": "Szymon Paluch"
+  },
+  "repository": "https://github.com/hculap/mac-cleaner",
+  "homepage": "https://github.com/hculap/mac-cleaner#readme",
+  "license": "MIT",
+  "keywords": [
+    "macos",
+    "cleanup",
+    "disk-space",
+    "memory",
+    "cache",
+    "docker",
+    "developer-tools",
+    "security",
+    "malware-detection"
+  ],
+  "agents": [
+    "./agents/disk-analyzer.md",
+    "./agents/ram-analyzer.md",
+    "./agents/security-analyzer.md"
+  ]
+}
