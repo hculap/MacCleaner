@@ -11,14 +11,28 @@ Comprehensive Mac maintenance toolkit for Claude Code. Analyze and clean disk sp
 - **Docker Maintenance**: Prune images, containers, volumes, and build cache
 - **Homebrew Cleanup**: Remove outdated packages and clean cache
 
-## Installation
+## Quick Start
 
-### From Marketplace
+**Prerequisites:** Claude Code CLI installed
+
+**Step 1: Add the marketplace**
 ```bash
-claude plugins install mac-cleaner
+/plugin marketplace add hculap/MacCleaner
 ```
 
-### Local Development
+**Step 2: Install the plugin**
+```bash
+/plugin install mac-cleaner
+```
+
+**Step 3: Use the plugin**
+```bash
+/mac-cleaner:disk-audit
+```
+
+That's it! You're ready to maintain your Mac.
+
+## Local Development
 ```bash
 claude --plugin-dir /path/to/MacCleaner
 ```
