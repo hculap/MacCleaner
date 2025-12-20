@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "mac-cleaner",
-      "source": ".",
+      "source": "./",
       "description": "Comprehensive Mac maintenance toolkit - disk cleanup, memory optimization, and security scanning",
       "version": "0.1.0",
       "author": {
