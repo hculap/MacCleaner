@@ -8,7 +8,7 @@
       "name": "mac-cleaner",
       "source": "./",
       "description": "Comprehensive Mac maintenance toolkit - disk cleanup, memory optimization, and security scanning",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Szymon Paluch"
       },
