@@ -144,4 +144,4 @@ Full documentation is available in the `docs/` directory:
 
 ## License
 
-MIT
+[MIT](LICENSE)
